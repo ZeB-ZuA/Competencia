@@ -32,7 +32,7 @@ public class Competencia {
             } while ("".equals(n) || " ".equals(n));//condicional
             do {
                 cc = ob.solicitarEntero("Ingrese CC del Jugador " + (i + 1));
-            } while (cc <= 0 //|| !validarCC(i, cc)
+            } while (cc <= 0 || !validarCC(i, cc)
                     );//condicional
             Jugador obj1 = new Jugador(n, cc, inicializarRem()); //inicializar el objeto tipo jugador y pasarle los datos
             team1[i] = obj1; // meter objetos al array de objetos
@@ -44,7 +44,7 @@ public class Competencia {
             } while ("".equals(n2) || " ".equals(n2));//condicional
             do {
                 cc2 = ob.solicitarEntero("Ingrese CC del Jugador " + (j + 1));
-            } while (cc2 <= 0  //!validarCC(j, cc2)
+            } while (cc2 <= 0 ||!validarCC(j, cc2)
                     );//condicional
             Jugador obj2 = new Jugador(n2, cc2, inicializarRem()); //inicializar el objeto tipo jugador y pasarle los datos
             team2[j] = obj2;// meter objetos al array de objetos
