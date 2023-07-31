@@ -25,7 +25,7 @@ public class EXE {
         ob1.pruebaNormal();
         ob.mostrarResultado("CARGANDO RESULTADOS DE LA PRUEBA 2....");
         ob1.mostarTodo();
-        ob.mostrarResultado("PRUEBA 1       DIFICULTAD: DIFICIL\nDESCRIPCION: los jugadores tendran que pasar POO con 5.0");
+        ob.mostrarResultado("PRUEBA 3       DIFICULTAD: DIFICIL\nDESCRIPCION: los jugadores tendran que pasar POO con 5.0");
         ob1.pruebaDificil();
         ob.mostrarResultado("CARGANDO RESULTADOS DE LA PRUEBA 3....");
         ob1.mostarTodo();
